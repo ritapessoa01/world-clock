@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="box">
       <h1>World Clock</h1>
+
+      <div class="current-location">Lisbon, Portugal</div>
+      <div class="current-time">20:32</div>
+      <div class="current-date">February 17th 2025</div>
 
       <select name="" id="">
         <option value="">Select a city...</option>
@@ -19,28 +29,32 @@
       </select>
 
       <div class="city">
-        <h2>Porto</h2>
-        <div class="date">February 17th 2025</div>
-        <div class="time">5:46:52 AM</div>
+        <div>
+          <h2>Porto</h2>
+          <div class="date">February 17th 2025</div>
+        </div>
+        <div class="time">11:46:52</div>
       </div>
 
       <div class="city">
-        <h2>Los Angeles</h2>
-        <div class="date">February 17th 2025</div>
-        <div class="time">5:46:52 AM</div>
+        <div>
+          <h2>Los Angeles</h2>
+          <div class="date">February 17th 2025</div>
+        </div>
+        <div class="time">11:46:52</div>
       </div>
-
-      <footer>
-        Coded by Rita Pessoa and
-        <a href="https://github.com/ritapessoa01/world-clock" target="_blank"
-          >open-sourced</a
-        >
-        hosted on
-        <a href="https://ritas-world-clock.netlify.app/" target="_blank"
-          >Netlify</a
-        >
-      </footer>
     </div>
+    <footer>
+      Coded by <em>Rita Pessoa</em> and
+      <a href="https://github.com/ritapessoa01/world-clock" target="_blank"
+        >open-sourced</a
+      >
+      hosted on
+      <a href="https://ritas-world-clock.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </footer>
+
     <script src="src/index.js"></script>
   </body>
 </html>
